@@ -1,0 +1,60 @@
+.title {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.dailyweather {
+  background-color: rgba(240, 229, 207, 0.95);
+  border-radius: 15px;
+  height: 40px;
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+
+.icon-small {
+  width: 40px;
+}
+
+.day {
+  color: black;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.description {
+  flex: 1 1;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.minmax {
+  color: rgb(40, 39, 39);
+}
+
+.dailydetailgrid {
+  grid-row-gap: 0;
+  grid-column-gap: 15px;
+  padding: 5px 15px;
+  display: grid;
+  flex: 1 1;
+  grid-template-columns: auto auto;
+}
+
+.dailydetailgriditem {
+  align-items: center;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dailydetailgrid label:first-child {
+  color: rgb(92, 92, 92);
+}
+.dailydetailgrid label:second-child {
+  color: black;
+}
